@@ -1,0 +1,20 @@
+[stats_config]
+port = 1883
+broker = 192.168.190.52
+agg_interval = 1
+anomaly_threshold = 1
+agg_type = max
+raw_db_address = 192.168.187.7
+raw_db_username = postgres
+raw_db_password = admin
+raw_db_name = postgres
+processed_db_address = 192.168.187.7
+processed_db_username = postgres
+processed_db_password = admin
+processed_db_name = postgres
+reset_baseline = False
+baseline_start_time = 2024-02-22 10:00:00
+baseline_end_time = 2024-02-22 12:15:00
+sample_start_time = 2024-02-22 12:20:00
+sample_end_time = 2024-02-22 12:30:00
+
